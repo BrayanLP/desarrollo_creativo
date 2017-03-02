@@ -1,0 +1,71 @@
+section
+#interiores
+	margin: 7.5rem 0 0 0 !important
+	height: 100%
+	.info-interiores
+		width: 800px
+		margin: 0 auto
+		background: #fff 
+		height: 100%
+		margin-top: -228px 
+		position: relative
+		float: left
+		@include translate(-50%,0)
+		left: 50%
+		.header-titulo
+			padding: 2rem 5rem
+		
+		.col
+			padding: 0
+			padding-bottom: 0.5rem
+			.cont
+				overflow: hidden
+				.cont-img
+					height: 266.66px
+					img
+						width: 100%
+.logica 
+	.col:nth-child(3n - 1)
+		padding: 0 0.5rem !important  
+		img
+			width: 107% !important
+#precio
+	background: #C4EBF8
+	margin: 0 !important
+	@extend #interiores
+	.info-interiores
+		background: transparent
+		margin-top: 0 
+		padding: 2rem 0
+		> p
+			font-size: 20px
+		a
+			background: $color-secundario
+			width: 100%
+			span
+				&:nth-child(1)
+					width: 75%
+			span.vertical
+				background: #C4EBF8
+		.col
+			padding: 0.5rem 0
+			&:nth-child(2) 
+				padding-right: 0.25rem
+			&:nth-child(3)
+				padding-left: 0.25rem
+			h2
+				font-size: 50px !important
+				padding: 0
+				margin: 0
+				color: $color-precio
+			h3
+				font-size: 30px !important
+				margin: 0
+				color: $color-precio2
+			p
+				font-size: 22px !important
+				margin: 0.3rem 0
+			.white
+				padding: 1rem
+				text-align: center
+

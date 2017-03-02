@@ -1,0 +1,82 @@
+section
+#taller
+	@extend #interiores
+	.codigo2
+		.col
+			padding-bottom: 0 !important
+		.col:nth-child(2n+1)
+			padding-left: 0.4rem
+			padding-right: 0.4rem
+		.col:nth-child(2n+1) .cont
+			overflow: hidden
+			height: 266px
+		.col:nth-child(2n+1) img
+			width: 107%
+	.col
+		img
+			width: 100%
+
+	.header-titulo
+			a
+				background: $color-secundario
+				width: 100%
+				span
+					&:nth-child(1)
+						width: 75%
+				span.vertical
+					background: #C4EBF8
+			.col
+				padding: 0.5rem 0
+				&:nth-child(2) 
+					padding-right: 0.25rem
+				&:nth-child(3)
+					padding-left: 0.25rem
+				h2
+					font-size: 50px !important
+					padding: 0
+					margin: 0
+					color: $color-precio
+				h3
+					font-size: 30px !important
+					margin: 0
+					color: $color-precio2
+				p
+					font-size: 22px !important
+					margin: 0.3rem 0
+				.white
+					padding: 1rem
+					text-align: center
+h1.title-u
+	color: $color-secundario
+	margin: 0
+.b-primary
+	background: #AC006D !important
+	float: left
+	width: 100%
+	h1
+		color: #fff
+		margin: 0 !important
+		font-family: 'Roboto'
+.b-secundary
+	width: 100%
+	float: left
+	background: #DAEDFB !important
+	color: $color-secundario
+	margin: 0.5rem 0 !important
+	p
+		color: #AC006D
+	h1
+		margin: 0 !important
+		font-family: 'Roboto'
+		color: $color-secundario
+.color-b
+	color: $color-principal
+.color-p
+	color: $color-secundario
+.row.p-l6 .col:nth-child(1)
+	padding: 0 0.75rem 0 0 !important
+.row.p-l6 .col:nth-child(2)
+	padding: 0 0 0 0.75rem !important
+
+
+

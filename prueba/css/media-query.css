@@ -1,0 +1,87 @@
+@media screen and (max-width: 600px){
+	/* HOME CSS */
+	section .info {
+	    bottom: -78px;
+	    width: 90%;
+	    height: 100%;
+	    padding: 2rem 2rem;
+	}
+	#taller-home {
+	    height: 640px;
+	}
+	#galeria {
+	    height: 1630px;
+	}
+	.acerca-home {
+	    margin: 0 0 9rem 0 !important;
+	    height: 580px;
+	}
+	section#footer footer .footer-info {
+	    width: 90%;
+	}
+	section#footer footer .footer-info .padding-f {
+	    padding-left: 0.75rem;
+	}
+	section#footer br{
+		display: none;
+	}
+	.show-logo{
+		display: none;
+	}
+	.hide-logo{
+		display: block !important;
+	}
+	#interiores, #taller, #acerca {
+    	margin: 14rem 0 0 0 !important;
+	}
+	#interiores .info-interiores, #taller .info-interiores, #precio .info-interiores, #acerca .info-interiores {
+	    width: 90%;
+	    height: 100%;
+	    margin-top: -84px;
+	}
+	#interiores .info-interiores .header-titulo, #taller .info-interiores .header-titulo, #precio .info-interiores .header-titulo, #acerca .info-interiores .header-titulo {
+	    padding: 2rem 2rem;
+	}
+	#taller .header-titulo a span:nth-child(1) {
+	    width: 62%;
+	    font-size: 8px;
+	}
+	#taller .header-titulo .col:nth-child(2) {
+	    padding-right: 0rem;
+	}
+	#taller .codigo2 .col:nth-child(2n+1) {
+	    padding-left: 0;
+	    padding-right: 0;
+	    padding-bottom: 0.5rem !important;
+	}
+	#precio {
+	    margin: 4rem 0 0 0 !important;
+	}
+	#precio {
+	    margin: 0 !important;
+	    padding: 9rem 0 3rem 0;
+	}
+	.padding-ga > .col.s12{
+		padding: 0 2rem !important;
+	}
+	.logica .col:nth-child(3n - 1) {
+	     padding: 0 3rem !important; 
+	}
+	.logica .col {
+	    padding: 0 3rem !important;
+	}
+	.row.p-l6 .col:nth-child(1) {
+	    padding: 0 0 0 0 !important;
+	}
+	.row.p-l6 .col:nth-child(2) {
+	    padding: 0 0 0 0 !important;
+	}
+	h1.title-u {
+	    font-size: 33px !important;
+	}
+	#precio .info-interiores a span:nth-child(1) {
+	    width: 70%;
+	    font-size: 12px;
+	}
+
+}

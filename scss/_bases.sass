@@ -1,0 +1,38 @@
+
+@mixin transform($transforms) 
+	-moz-transform: $transforms
+	-o-transform: $transforms
+	-ms-transform: $transforms
+	-webkit-transform: $transforms
+    transform: $transforms
+// rotate
+@mixin rotate($deg) 
+	@include transform(rotate(#{$deg}deg))
+ 
+// scale
+@mixin scale($scale) 
+	@include transform(scale($scale))
+ 
+// translate
+@mixin translate($x, $y) 
+	@include transform(translate($x, $y))
+
+@mixin trans-y-scale($x,$y,$scale)
+	@include transform(translate($x, $y) scale($scale))
+
+@mixin transition($transition)
+    -moz-transition:    $transition
+    -o-transition:      $transition
+    -webkit-transition: $transition
+    transition:         $transition
+p
+	font-family: 'Roboto', sans-serif
+	color: $color-secundario
+	font-size: 15px
+h1
+	color: $color-principal	
+	font-family: 'Handlee', cursive
+	font-size: 40px !important
+	width: 100%
+	float: left
+	margin-bottom: 1rem !important

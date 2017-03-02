@@ -1,0 +1,319 @@
+@import 'https://fonts.googleapis.com/css?family=Handlee|Roboto:400,500';
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #82368B;
+  font-size: 15px; }
+
+h1 {
+  color: #009BDE;
+  font-family: 'Handlee', cursive;
+  font-size: 40px !important;
+  width: 100%;
+  float: left;
+  margin-bottom: 1rem !important; }
+
+nav {
+  background: #fff !important;
+  box-shadow: 0 0 0 transparent !important; }
+  nav .brand-logo {
+    margin: 2rem 0; }
+    nav .brand-logo img.hide-logo {
+      display: none; }
+  nav ul li a {
+    color: red; }
+  nav .button-collapse {
+    color: #fff;
+    background: #82368B;
+    width: 64px;
+    text-align: center;
+    top: 30px; }
+  nav .side-nav li.height-nav {
+    height: 200px;
+    text-align: center;
+    background: transparent !important; }
+    nav .side-nav li.height-nav img {
+      display: inline-block; }
+  nav .side-nav li a {
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    color: #82368B; }
+    nav .side-nav li a:hover {
+      color: #fff !important; }
+  nav .side-nav li:hover {
+    background: #009BDE; }
+
+section {
+  width: 100%;
+  margin: 3rem 0;
+  overflow: hidden;
+  position: relative; }
+  section .info {
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    left: 50%;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+      -webkit-transform-transform: translate(-50%, 0);
+    width: 800px;
+    height: 350px;
+    padding: 2rem 5rem; }
+    section .info h1 {
+      margin: 0; }
+  section a.btn-ga {
+    background: #009BDE;
+    border-radius: 0;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 0 0 2rem; }
+    section a.btn-ga span {
+      float: left; }
+    section a.btn-ga span.vertical {
+      height: 100%;
+      width: 4px;
+      background: #fff;
+      margin: 0 1rem 0 1.7rem; }
+    section a.btn-ga span.az-plus {
+      line-height: 50px;
+      padding: 0 1.3rem 0 0.1rem; }
+    section a.btn-ga span.info-more {
+      padding-right: 2rem; }
+
+#franja {
+  margin: 1rem 0;
+  height: 100%; }
+  #franja .fondo {
+    width: 100%;
+    height: 76px;
+    background: url("../img/franja.jpg"); }
+
+#galeria {
+  height: 720px; }
+  #galeria .info {
+    top: 50%;
+    bottom: initial;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+      -webkit-transform-transform: translate(-50%, -50%);
+    height: 100%; }
+    #galeria .info a.fancy {
+      background: #fff; }
+    #galeria .info a {
+      background: #82368B; }
+    #galeria .info .col {
+      padding: 0 0.2rem; }
+      #galeria .info .col .cont {
+        width: 100%;
+        height: 100%;
+        float: left; }
+        #galeria .info .col .cont .box .cont-img img {
+          width: 100%; }
+
+#taller-home {
+  margin: 13rem 0 0 0 !important;
+  height: 100%; }
+  #taller-home img {
+    width: 100%; }
+
+.acerca-home {
+  margin: 0 0 9rem 0 !important; }
+
+section#footer {
+  height: 100%;
+  background: #009BDE;
+  margin: 0 !important; }
+  section#footer footer {
+    overflow: hidden;
+    background: #009BDE; }
+    section#footer footer .footer-info {
+      margin: 0 auto;
+      width: 800px; }
+      section#footer footer .footer-info .padding-f {
+        padding-left: 5rem; }
+      section#footer footer .footer-info h1 {
+        color: #fff; }
+      section#footer footer .footer-info p {
+        color: #fff; }
+      section#footer footer .footer-info h1.siguenos {
+        font-size: 2.5rem !important;
+        float: left;
+        width: 100%; }
+      section#footer footer .footer-info a {
+        color: #fff;
+        font-weight: 100;
+        padding: 0 0 0.5rem 0;
+        float: left;
+        width: 100%; }
+      section#footer footer .footer-info a.redes {
+        width: 30px;
+        float: left; }
+        section#footer footer .footer-info a.redes span {
+          font-size: 20px; }
+      section#footer footer .footer-info p.center {
+        width: 100%;
+        font-weight: inherit;
+        font-size: 14px; }
+
+#taller .codigo2 .col {
+  padding-bottom: 0 !important; }
+
+#taller .codigo2 .col:nth-child(2n+1) {
+  padding-left: 0.4rem;
+  padding-right: 0.4rem; }
+
+#taller .codigo2 .col:nth-child(2n+1) .cont {
+  overflow: hidden;
+  height: 266px; }
+
+#taller .codigo2 .col:nth-child(2n+1) img {
+  width: 107%; }
+
+#taller .col img {
+  width: 100%; }
+
+#taller .header-titulo a {
+  background: #82368B;
+  width: 100%; }
+  #taller .header-titulo a span:nth-child(1) {
+    width: 75%; }
+  #taller .header-titulo a span.vertical {
+    background: #C4EBF8; }
+
+#taller .header-titulo .col {
+  padding: 0.5rem 0; }
+  #taller .header-titulo .col:nth-child(2) {
+    padding-right: 0.25rem; }
+  #taller .header-titulo .col:nth-child(3) {
+    padding-left: 0.25rem; }
+  #taller .header-titulo .col h2 {
+    font-size: 50px !important;
+    padding: 0;
+    margin: 0;
+    color: #AA006D; }
+  #taller .header-titulo .col h3 {
+    font-size: 30px !important;
+    margin: 0;
+    color: #941166; }
+  #taller .header-titulo .col p {
+    font-size: 22px !important;
+    margin: 0.3rem 0; }
+  #taller .header-titulo .col .white {
+    padding: 1rem;
+    text-align: center; }
+
+h1.title-u {
+  color: #82368B;
+  margin: 0; }
+
+.b-primary {
+  background: #AC006D !important;
+  float: left;
+  width: 100%; }
+  .b-primary h1 {
+    color: #fff;
+    margin: 0 !important;
+    font-family: 'Roboto'; }
+
+.b-secundary {
+  width: 100%;
+  float: left;
+  background: #DAEDFB !important;
+  color: #82368B;
+  margin: 0.5rem 0 !important; }
+  .b-secundary p {
+    color: #AC006D; }
+  .b-secundary h1 {
+    margin: 0 !important;
+    font-family: 'Roboto';
+    color: #82368B; }
+
+.color-b {
+  color: #009BDE; }
+
+.color-p {
+  color: #82368B; }
+
+.row.p-l6 .col:nth-child(1) {
+  padding: 0 0.75rem 0 0 !important; }
+
+.row.p-l6 .col:nth-child(2) {
+  padding: 0 0 0 0.75rem !important; }
+
+#interiores, #taller, #precio, #acerca {
+  margin: 7.5rem 0 0 0 !important;
+  height: 100%; }
+  #interiores .info-interiores, #taller .info-interiores, #precio .info-interiores, #acerca .info-interiores {
+    width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    height: 100%;
+    margin-top: -228px;
+    position: relative;
+    float: left;
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+      -webkit-transform-transform: translate(-50%, 0);
+    left: 50%; }
+    #interiores .info-interiores .header-titulo, #taller .info-interiores .header-titulo, #precio .info-interiores .header-titulo, #acerca .info-interiores .header-titulo {
+      padding: 2rem 5rem; }
+    #interiores .info-interiores .col, #taller .info-interiores .col, #precio .info-interiores .col, #acerca .info-interiores .col {
+      padding: 0;
+      padding-bottom: 0.5rem; }
+      #interiores .info-interiores .col .cont, #taller .info-interiores .col .cont, #precio .info-interiores .col .cont, #acerca .info-interiores .col .cont {
+        overflow: hidden; }
+        #interiores .info-interiores .col .cont .cont-img, #taller .info-interiores .col .cont .cont-img, #precio .info-interiores .col .cont .cont-img, #acerca .info-interiores .col .cont .cont-img {
+          height: 266.66px; }
+          #interiores .info-interiores .col .cont .cont-img img, #taller .info-interiores .col .cont .cont-img img, #precio .info-interiores .col .cont .cont-img img, #acerca .info-interiores .col .cont .cont-img img {
+            width: 100%; }
+
+.logica .col:nth-child(3n - 1) {
+  padding: 0 0.5rem !important; }
+  .logica .col:nth-child(3n - 1) img {
+    width: 107% !important; }
+
+#precio {
+  background: #C4EBF8;
+  margin: 0 !important; }
+  #precio .info-interiores {
+    background: transparent;
+    margin-top: 0;
+    padding: 2rem 0; }
+    #precio .info-interiores > p {
+      font-size: 20px; }
+    #precio .info-interiores a {
+      background: #82368B;
+      width: 100%; }
+      #precio .info-interiores a span:nth-child(1) {
+        width: 75%; }
+      #precio .info-interiores a span.vertical {
+        background: #C4EBF8; }
+    #precio .info-interiores .col {
+      padding: 0.5rem 0; }
+      #precio .info-interiores .col:nth-child(2) {
+        padding-right: 0.25rem; }
+      #precio .info-interiores .col:nth-child(3) {
+        padding-left: 0.25rem; }
+      #precio .info-interiores .col h2 {
+        font-size: 50px !important;
+        padding: 0;
+        margin: 0;
+        color: #AA006D; }
+      #precio .info-interiores .col h3 {
+        font-size: 30px !important;
+        margin: 0;
+        color: #941166; }
+      #precio .info-interiores .col p {
+        font-size: 22px !important;
+        margin: 0.3rem 0; }
+      #precio .info-interiores .col .white {
+        padding: 1rem;
+        text-align: center; }
+
+#acerca .info-interiores {
+  margin-top: -270px; }
